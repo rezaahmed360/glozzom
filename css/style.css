@@ -1,0 +1,90 @@
+.navbar {
+  background-color: #000; }
+  .navbar .nav-item {
+    margin-right: 15px; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#home-icon .fa {
+  font-size: 3.1rem; }
+
+#get-started {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/pc.jpeg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+#Youtube-play {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/people.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+  #Youtube-play .fa {
+    font-size: 3rem;
+    color: red; }
+
+#galary img {
+  height: 250px; }
+
+#footer-section {
+  background: #000; }
+
+@media (max-width: 500px) {
+  .carousel h2 {
+    font-size: 2.5rem; } }
+
+#about-header {
+  background: url(../img/image2.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+#services-header {
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+#Blog-header {
+  background: url(../img/image1.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+#Contact-header {
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; }
+
+#about img {
+  width: 350px;
+  height: 350px; }
+
+#About-card .fa {
+  font-size: 3rem; }
+
+#testimonial .slick-prev::before {
+  color: #333; }
+
+#testimonial .slick-next::before {
+  color: #333; }
+
+@media (max-width: 320px) {
+  .carousel h2 {
+    font-size: 2rem; } }
